@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+       <a class="navbar-brand" href="#">Página Modelo</a> 
+       <div class="collapse navbar-collapse">
+           <ul class="navbar-nav">
+             <li class="nav-item"><a class="nav-link" href="#quemsomos">Quem somos</a></li>
+             <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+             <li class="nav-item"><a class="nav-link" href="#contato">Entre em contato conosco</a></li>
+           </ul>
+       </div>
+    </nav>
+
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos margin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+            <h3 class="titulos h3-quemsomos margin">Quem somos</h3>
+            <img src="midia/equipe.jpg" alt="Imagem de uma equipe." id="img-equipe">
+            <h4 class="titulos h4-quemsomos" >Somos uma equipe com foco em resultados.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid servicos text-center margin">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="midia/construcao-software.jpg" alt="construção de software" class="img-servicos" id="img-servicos-software">
+                        <h5 id="h5-servicos">Desenvolvimento de Software</h5>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="midia/reuniao.jpg" alt="reunião da equipe" class="img-servicos" id="img-servicos-consultoria">
+                        <h5>Consultoria</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <form>
+            <div class="mb-3">
+                <h3 id="h3-contato">Entre em contato</h3>
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="seu-email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tipo de serviço que você quer</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark">Enviar</button>
+        </form>
+    </section>
+    <footer id="rodape">
+        <p>
+            Copyright &copy; 2021 - Desenvolvido por Bruna Almeida <a href="http://www.linkedin.com/in/brunaalmeida13" target="_blank" rel="external" class="link-rodape">Meu LinkedIn</a> |<a href="https://github.com/BrunaAlmeida13" class="link-rodape">Meu Portifólio no GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>

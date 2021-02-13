@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+.navbar{
+    background-color: rgb(216, 190, 157);
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.quem-somos{
+    background-color: rgb(228, 208, 182);
+}
+
+.margin{
+    padding-top: 20px;
+}
+
+img#img-equipe{
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 70px;
+    margin-left: 400px;
+}
+
+.titulos{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.h3-quemsomos{
+    margin-left: -30px;
+}
+
+.h4-quemsomos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.servicos{
+    background-color: rgb(224, 204, 176);  
+    margin-top: -9px;
+    padding-top: 30px;
+}
+
+.img-servicos{
+    width: 300px;
+    border-radius: 80px;
+}
+
+img#img-servicos-software{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h5#h5-servicos{
+    padding-bottom: 30px;
+}
+
+img#img-servicos-consultoria{
+    margin-top: 60px;
+    padding-bottom: 25px;
+}
+
+section#contato{
+    background-color: rgb(228, 208, 182);
+    margin-top: -7px;
+}
+
+form{
+    width: 350px;
+    margin-left: 490px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3#h3-contato{
+    padding-left: 90px;
+}
+
+input#exampleFormControlInput1{
+    width: 400px;
+}
+
+textarea#exampleFormControlTextarea1{
+    width: 400px;
+}
+
+.btn-dark{
+    margin-left: 150px;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 14pt;
+}
+
+.link-rodape{
+    color: black;
+    padding-left: 10px;
+}
+
+footer#rodape{
+    background-color: rgb(172, 167, 154);
+    margin-bottom: -15px;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
